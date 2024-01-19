@@ -1,0 +1,13 @@
+.nav .dropdown #hoverDropdown{
+    color:darkslateblue;
+    background-color: white;
+    border: none;
+}
+.dropdown:hover #hoverDropdown{
+    background-color:aquamarine;
+    border: none;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    background-color: white;
+}
